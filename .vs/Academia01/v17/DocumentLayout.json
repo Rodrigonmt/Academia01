@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD0A7933-2525-4E14-90AB-89AFA03DE011}|Academia01.csproj|c:\\users\\rodrigo\\desktop\\projeto\\academia01\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD0A7933-2525-4E14-90AB-89AFA03DE011}|Academia01.csproj|solutionrelative:banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD0A7933-2525-4E14-90AB-89AFA03DE011}|Academia01.csproj|C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CD0A7933-2525-4E14-90AB-89AFA03DE011}|Academia01.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0A7933-2525-4E14-90AB-89AFA03DE011}|Academia01.csproj|c:\\users\\rodrigo\\desktop\\projeto\\academia01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0A7933-2525-4E14-90AB-89AFA03DE011}|Academia01.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0A7933-2525-4E14-90AB-89AFA03DE011}|Academia01.csproj|c:\\users\\rodrigo\\desktop\\projeto\\academia01\\f_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0A7933-2525-4E14-90AB-89AFA03DE011}|Academia01.csproj|solutionrelative:f_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0A7933-2525-4E14-90AB-89AFA03DE011}|Academia01.csproj|c:\\users\\rodrigo\\desktop\\projeto\\academia01\\f_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CD0A7933-2525-4E14-90AB-89AFA03DE011}|Academia01.csproj|solutionrelative:f_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0A7933-2525-4E14-90AB-89AFA03DE011}|Academia01.csproj|c:\\users\\rodrigo\\desktop\\projeto\\academia01\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0A7933-2525-4E14-90AB-89AFA03DE011}|Academia01.csproj|solutionrelative:banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,27 +46,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T02:20:40.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "F_Login.cs",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\F_Login.cs",
+              "RelativeDocumentMoniker": "F_Login.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\F_Login.cs",
+              "RelativeToolTip": "F_Login.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAjwA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T02:11:45.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "F_Login.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\F_Login.cs",
+              "RelativeDocumentMoniker": "F_Login.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\F_Login.cs [Projeto]",
+              "RelativeToolTip": "F_Login.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T02:08:46.535Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Banco.cs",
               "DocumentMoniker": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\Banco.cs",
               "RelativeDocumentMoniker": "Banco.cs",
               "ToolTip": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\Banco.cs",
               "RelativeToolTip": "Banco.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T01:20:13.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\Form1.cs [Projeto]",
               "RelativeToolTip": "Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T00:26:18.032Z"
+              "WhenOpened": "2025-03-30T00:26:18.032Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }

@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            pb_ledLogado = new PictureBox();
-            label1 = new Label();
-            lb_acesso = new Label();
-            label3 = new Label();
             lb_nomeUsuario = new Label();
+            label3 = new Label();
+            lb_acesso = new Label();
+            label1 = new Label();
+            pb_ledLogado = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pb_ledLogado).BeginInit();
             SuspendLayout();
@@ -52,33 +52,14 @@
             panel1.Size = new Size(551, 35);
             panel1.TabIndex = 0;
             // 
-            // pb_ledLogado
+            // lb_nomeUsuario
             // 
-            pb_ledLogado.Image = Properties.Resources.led_vermelho;
-            pb_ledLogado.Location = new Point(3, 3);
-            pb_ledLogado.Name = "pb_ledLogado";
-            pb_ledLogado.Size = new Size(30, 27);
-            pb_ledLogado.SizeMode = PictureBoxSizeMode.StretchImage;
-            pb_ledLogado.TabIndex = 0;
-            pb_ledLogado.TabStop = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(47, 11);
-            label1.Name = "label1";
-            label1.Size = new Size(47, 15);
-            label1.TabIndex = 1;
-            label1.Text = "Acesso:";
-            // 
-            // lb_acesso
-            // 
-            lb_acesso.AutoSize = true;
-            lb_acesso.Location = new Point(91, 11);
-            lb_acesso.Name = "lb_acesso";
-            lb_acesso.Size = new Size(13, 15);
-            lb_acesso.TabIndex = 2;
-            lb_acesso.Text = "0";
+            lb_nomeUsuario.AutoSize = true;
+            lb_nomeUsuario.Location = new Point(179, 11);
+            lb_nomeUsuario.Name = "lb_nomeUsuario";
+            lb_nomeUsuario.Size = new Size(22, 15);
+            lb_nomeUsuario.TabIndex = 2;
+            lb_nomeUsuario.Text = "---";
             // 
             // label3
             // 
@@ -89,14 +70,33 @@
             label3.TabIndex = 2;
             label3.Text = "Usuário:";
             // 
-            // lb_nomeUsuario
+            // lb_acesso
             // 
-            lb_nomeUsuario.AutoSize = true;
-            lb_nomeUsuario.Location = new Point(179, 11);
-            lb_nomeUsuario.Name = "lb_nomeUsuario";
-            lb_nomeUsuario.Size = new Size(22, 15);
-            lb_nomeUsuario.TabIndex = 2;
-            lb_nomeUsuario.Text = "---";
+            lb_acesso.AutoSize = true;
+            lb_acesso.Location = new Point(91, 11);
+            lb_acesso.Name = "lb_acesso";
+            lb_acesso.Size = new Size(13, 15);
+            lb_acesso.TabIndex = 2;
+            lb_acesso.Text = "0";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(47, 11);
+            label1.Name = "label1";
+            label1.Size = new Size(47, 15);
+            label1.TabIndex = 1;
+            label1.Text = "Acesso:";
+            // 
+            // pb_ledLogado
+            // 
+            pb_ledLogado.Image = Properties.Resources.led_vermelho;
+            pb_ledLogado.Location = new Point(3, 3);
+            pb_ledLogado.Name = "pb_ledLogado";
+            pb_ledLogado.Size = new Size(30, 27);
+            pb_ledLogado.SizeMode = PictureBoxSizeMode.StretchImage;
+            pb_ledLogado.TabIndex = 0;
+            pb_ledLogado.TabStop = false;
             // 
             // Form1
             // 
@@ -116,10 +116,10 @@
         #endregion
 
         private Panel panel1;
-        private Label lb_nomeUsuario;
         private Label label3;
-        private Label lb_acesso;
         private Label label1;
         public PictureBox pb_ledLogado;
+        public Label lb_nomeUsuario;
+        public Label lb_acesso;
     }
 }
