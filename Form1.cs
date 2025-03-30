@@ -23,5 +23,81 @@ namespace Academia01
             Globais.nivel = 0;
             Globais.logado = false;
         }
+
+        private void bANCODADOSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Globais.logado == true)//verifica se o usuário está logado e o nivel de acesso
+            {
+                if (Globais.nivel >= 2)
+                {
+                    //PROCEDIMENTOS DA JANELA AQUI
+                }
+                else
+                {
+                    MessageBox.Show("Usuário não possui liberação de acesso");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nenhum usuário logado!");
+            }
+        }
+
+        private void nOVOUSUÁRIOToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Globais.logado == true)//verifica se o usuário está logado e o nivel de acesso
+            {
+                if (Globais.nivel >= 1)
+                {
+                    //PROCEDIMENTOS DA JANELA AQUI
+                }
+                else
+                {
+                    MessageBox.Show("Usuário não possui liberação de acesso");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nenhum usuário logado!");
+            }
+        }
+
+        private void gESTÃOUSUÁRIOToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Globais.logado == true)//verifica se o usuário está logado e o nivel de acesso
+            {
+                if (Globais.nivel >= 1)
+                {
+                    //PROCEDIMENTOS DA JANELA AQUI
+                }
+                else
+                {
+                    MessageBox.Show("Usuário não possui liberação de acesso");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nenhum usuário logado!");
+            }
+        }
+
+        private void nOVOALUNOToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Globais.logado == true)//verifica se o usuário está logado e o nivel de acesso
+            {
+                if (Globais.nivel >= 0)
+                {
+                    //PROCEDIMENTOS DA JANELA AQUI
+                }
+                else
+                {
+                    MessageBox.Show("Usuário não possui liberação de acesso");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nenhum usuário logado!");
+            }
+        }
     }
 }

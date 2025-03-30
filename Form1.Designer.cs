@@ -35,6 +35,13 @@
             label1 = new Label();
             pb_ledLogado = new PictureBox();
             menuStrip1 = new MenuStrip();
+            aLUNOSToolStripMenuItem = new ToolStripMenuItem();
+            nOVOALUNOToolStripMenuItem = new ToolStripMenuItem();
+            uSUÁRIOSToolStripMenuItem = new ToolStripMenuItem();
+            nOVOUSUÁRIOToolStripMenuItem = new ToolStripMenuItem();
+            gESTÃOUSUÁRIOToolStripMenuItem = new ToolStripMenuItem();
+            mANUTENÇÃOToolStripMenuItem = new ToolStripMenuItem();
+            bANCODADOSToolStripMenuItem = new ToolStripMenuItem();
             lOGINToolStripMenuItem = new ToolStripMenuItem();
             lOGONToolStripMenuItem = new ToolStripMenuItem();
             lOGOFFToolStripMenuItem = new ToolStripMenuItem();
@@ -105,12 +112,61 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { lOGINToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { aLUNOSToolStripMenuItem, uSUÁRIOSToolStripMenuItem, mANUTENÇÃOToolStripMenuItem, lOGINToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(551, 24);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
+            // 
+            // aLUNOSToolStripMenuItem
+            // 
+            aLUNOSToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { nOVOALUNOToolStripMenuItem });
+            aLUNOSToolStripMenuItem.Name = "aLUNOSToolStripMenuItem";
+            aLUNOSToolStripMenuItem.Size = new Size(65, 20);
+            aLUNOSToolStripMenuItem.Text = "ALUNOS";
+            // 
+            // nOVOALUNOToolStripMenuItem
+            // 
+            nOVOALUNOToolStripMenuItem.Name = "nOVOALUNOToolStripMenuItem";
+            nOVOALUNOToolStripMenuItem.Size = new Size(180, 22);
+            nOVOALUNOToolStripMenuItem.Text = "NOVO ALUNO";
+            nOVOALUNOToolStripMenuItem.Click += nOVOALUNOToolStripMenuItem_Click;
+            // 
+            // uSUÁRIOSToolStripMenuItem
+            // 
+            uSUÁRIOSToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { nOVOUSUÁRIOToolStripMenuItem, gESTÃOUSUÁRIOToolStripMenuItem });
+            uSUÁRIOSToolStripMenuItem.Name = "uSUÁRIOSToolStripMenuItem";
+            uSUÁRIOSToolStripMenuItem.Size = new Size(74, 20);
+            uSUÁRIOSToolStripMenuItem.Text = "USUÁRIOS";
+            // 
+            // nOVOUSUÁRIOToolStripMenuItem
+            // 
+            nOVOUSUÁRIOToolStripMenuItem.Name = "nOVOUSUÁRIOToolStripMenuItem";
+            nOVOUSUÁRIOToolStripMenuItem.Size = new Size(180, 22);
+            nOVOUSUÁRIOToolStripMenuItem.Text = "NOVO USUÁRIO";
+            nOVOUSUÁRIOToolStripMenuItem.Click += nOVOUSUÁRIOToolStripMenuItem_Click;
+            // 
+            // gESTÃOUSUÁRIOToolStripMenuItem
+            // 
+            gESTÃOUSUÁRIOToolStripMenuItem.Name = "gESTÃOUSUÁRIOToolStripMenuItem";
+            gESTÃOUSUÁRIOToolStripMenuItem.Size = new Size(180, 22);
+            gESTÃOUSUÁRIOToolStripMenuItem.Text = "GESTÃO USUÁRIO";
+            gESTÃOUSUÁRIOToolStripMenuItem.Click += gESTÃOUSUÁRIOToolStripMenuItem_Click;
+            // 
+            // mANUTENÇÃOToolStripMenuItem
+            // 
+            mANUTENÇÃOToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { bANCODADOSToolStripMenuItem });
+            mANUTENÇÃOToolStripMenuItem.Name = "mANUTENÇÃOToolStripMenuItem";
+            mANUTENÇÃOToolStripMenuItem.Size = new Size(101, 20);
+            mANUTENÇÃOToolStripMenuItem.Text = "MANUTENÇÃO";
+            // 
+            // bANCODADOSToolStripMenuItem
+            // 
+            bANCODADOSToolStripMenuItem.Name = "bANCODADOSToolStripMenuItem";
+            bANCODADOSToolStripMenuItem.Size = new Size(157, 22);
+            bANCODADOSToolStripMenuItem.Text = "BANCO DADOS";
+            bANCODADOSToolStripMenuItem.Click += bANCODADOSToolStripMenuItem_Click;
             // 
             // lOGINToolStripMenuItem
             // 
@@ -122,14 +178,14 @@
             // lOGONToolStripMenuItem
             // 
             lOGONToolStripMenuItem.Name = "lOGONToolStripMenuItem";
-            lOGONToolStripMenuItem.Size = new Size(180, 22);
+            lOGONToolStripMenuItem.Size = new Size(118, 22);
             lOGONToolStripMenuItem.Text = "LOGON";
             lOGONToolStripMenuItem.Click += lOGONToolStripMenuItem_Click;
             // 
             // lOGOFFToolStripMenuItem
             // 
             lOGOFFToolStripMenuItem.Name = "lOGOFFToolStripMenuItem";
-            lOGOFFToolStripMenuItem.Size = new Size(180, 22);
+            lOGOFFToolStripMenuItem.Size = new Size(118, 22);
             lOGOFFToolStripMenuItem.Text = "LOGOFF";
             lOGOFFToolStripMenuItem.Click += lOGOFFToolStripMenuItem_Click;
             // 
@@ -165,5 +221,12 @@
         private ToolStripMenuItem lOGINToolStripMenuItem;
         private ToolStripMenuItem lOGONToolStripMenuItem;
         private ToolStripMenuItem lOGOFFToolStripMenuItem;
+        private ToolStripMenuItem mANUTENÇÃOToolStripMenuItem;
+        private ToolStripMenuItem bANCODADOSToolStripMenuItem;
+        private ToolStripMenuItem uSUÁRIOSToolStripMenuItem;
+        private ToolStripMenuItem nOVOUSUÁRIOToolStripMenuItem;
+        private ToolStripMenuItem gESTÃOUSUÁRIOToolStripMenuItem;
+        private ToolStripMenuItem aLUNOSToolStripMenuItem;
+        private ToolStripMenuItem nOVOALUNOToolStripMenuItem;
     }
 }
