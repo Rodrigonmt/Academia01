@@ -34,8 +34,13 @@
             lb_acesso = new Label();
             label1 = new Label();
             pb_ledLogado = new PictureBox();
+            menuStrip1 = new MenuStrip();
+            lOGINToolStripMenuItem = new ToolStripMenuItem();
+            lOGONToolStripMenuItem = new ToolStripMenuItem();
+            lOGOFFToolStripMenuItem = new ToolStripMenuItem();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pb_ledLogado).BeginInit();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -98,19 +103,54 @@
             pb_ledLogado.TabIndex = 0;
             pb_ledLogado.TabStop = false;
             // 
+            // menuStrip1
+            // 
+            menuStrip1.Items.AddRange(new ToolStripItem[] { lOGINToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(551, 24);
+            menuStrip1.TabIndex = 1;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // lOGINToolStripMenuItem
+            // 
+            lOGINToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { lOGONToolStripMenuItem, lOGOFFToolStripMenuItem });
+            lOGINToolStripMenuItem.Name = "lOGINToolStripMenuItem";
+            lOGINToolStripMenuItem.Size = new Size(54, 20);
+            lOGINToolStripMenuItem.Text = "LOGIN";
+            // 
+            // lOGONToolStripMenuItem
+            // 
+            lOGONToolStripMenuItem.Name = "lOGONToolStripMenuItem";
+            lOGONToolStripMenuItem.Size = new Size(180, 22);
+            lOGONToolStripMenuItem.Text = "LOGON";
+            lOGONToolStripMenuItem.Click += lOGONToolStripMenuItem_Click;
+            // 
+            // lOGOFFToolStripMenuItem
+            // 
+            lOGOFFToolStripMenuItem.Name = "lOGOFFToolStripMenuItem";
+            lOGOFFToolStripMenuItem.Size = new Size(180, 22);
+            lOGOFFToolStripMenuItem.Text = "LOGOFF";
+            lOGOFFToolStripMenuItem.Click += lOGOFFToolStripMenuItem_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(551, 373);
             Controls.Add(panel1);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Aplicativo Academia v1.0";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pb_ledLogado).EndInit();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -121,5 +161,9 @@
         public PictureBox pb_ledLogado;
         public Label lb_nomeUsuario;
         public Label lb_acesso;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem lOGINToolStripMenuItem;
+        private ToolStripMenuItem lOGONToolStripMenuItem;
+        private ToolStripMenuItem lOGOFFToolStripMenuItem;
     }
 }
