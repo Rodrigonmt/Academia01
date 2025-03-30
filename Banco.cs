@@ -29,15 +29,40 @@ namespace Academia01
                     cmd.CommandText = "select *from tb_usuarios";
                     da = new SQLiteDataAdapter(cmd.CommandText, ConexaoBanco());
                     da.Fill(dt);
+                    ConexaoBanco().Close();
                     return dt;
                 }
             }
             catch (Exception ex) 
             {
+                ConexaoBanco().Close();
                 throw ex;
             }
 
             
+        }
+
+        public static DataTable consulta(string sql)
+        {
+            SQLiteDataAdapter da = null;
+            DataTable dt = new DataTable();
+            try
+            {
+                using (var cmd = ConexaoBanco().CreateCommand())
+                {
+                    cmd.CommandText = sql;
+                    da = new SQLiteDataAdapter(cmd.CommandText, ConexaoBanco());
+                    da.Fill(dt);
+                    ConexaoBanco().Close();
+                    return dt;
+                }
+            }
+            catch (Exception ex)
+            {
+                ConexaoBanco().Close();
+                throw ex;
+            }
+
         }
 
     }
