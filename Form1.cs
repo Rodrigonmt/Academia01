@@ -49,7 +49,8 @@ namespace Academia01
             {
                 if (Globais.nivel >= 1)
                 {
-                    //PROCEDIMENTOS DA JANELA AQUI
+                    F_NovoUsuario f_NovoUsuario = new F_NovoUsuario();
+                    f_NovoUsuario.ShowDialog();
                 }
                 else
                 {

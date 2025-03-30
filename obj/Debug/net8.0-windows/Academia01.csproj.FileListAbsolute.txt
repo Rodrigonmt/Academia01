@@ -33,3 +33,4 @@ C:\Users\Rodrigo\Desktop\Projeto\Academia01\obj\Debug\net8.0-windows\Academia01.
 C:\Users\Rodrigo\Desktop\Projeto\Academia01\obj\Debug\net8.0-windows\Academia01.sourcelink.json
 C:\Users\Rodrigo\Desktop\Projeto\Academia01\obj\Debug\net8.0-windows\Academia01.csproj.Up2Date
 C:\Users\Rodrigo\Desktop\Projeto\Academia01\obj\Debug\net8.0-windows\Academia01.F_Login.resources
+C:\Users\Rodrigo\Desktop\Projeto\Academia01\obj\Debug\net8.0-windows\Academia01.F_NovoUsuario.resources

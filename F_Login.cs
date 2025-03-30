@@ -18,6 +18,8 @@ namespace Academia01
         {
             InitializeComponent();
             form1 = f;
+            tb_username.Text = "ra_antunes";
+            tb_senha.Text = "123";
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
