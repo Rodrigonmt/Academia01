@@ -78,6 +78,7 @@
             btn_logar.TabIndex = 4;
             btn_logar.Text = "Logar";
             btn_logar.UseVisualStyleBackColor = true;
+            btn_logar.Click += btn_logar_Click;
             // 
             // btn_cancelar
             // 
@@ -87,6 +88,7 @@
             btn_cancelar.TabIndex = 5;
             btn_cancelar.Text = "Cancelar";
             btn_cancelar.UseVisualStyleBackColor = true;
+            btn_cancelar.Click += btn_cancelar_Click;
             // 
             // F_Login
             // 

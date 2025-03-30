@@ -23,5 +23,15 @@ namespace Academia01
         {
 
         }
+
+        private void btn_logar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_cancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
