@@ -16,5 +16,17 @@ namespace Academia01
         {
             InitializeComponent();
         }
+
+        private void btn_salvar_Click(object sender, EventArgs e)
+        {
+            Usuario usuario = new Usuario();
+            usuario.nome = tb_nome.Text;
+            usuario.username = tb_username.Text;
+            usuario.senha = tb_senha.Text;
+            usuario.status = cb_status.Text;
+            usuario.nivel = Convert.ToInt32(Math.Round(nd_nivel.Value,0));
+
+
+        }
     }
 }
