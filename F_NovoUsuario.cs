@@ -24,9 +24,34 @@ namespace Academia01
             usuario.username = tb_username.Text;
             usuario.senha = tb_senha.Text;
             usuario.status = cb_status.Text;
-            usuario.nivel = Convert.ToInt32(Math.Round(nd_nivel.Value,0));
+            usuario.nivel = Convert.ToInt32(Math.Round(nd_nivel.Value, 0));
 
+            Banco.NovoUsuario(usuario);
+        }
 
+        private void btn_fechar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btn_cancelar_Click(object sender, EventArgs e)
+        {
+            tb_nome.Clear();
+            tb_username.Clear();
+            tb_senha.Clear();
+            cb_status.Text = "";
+            nd_nivel.Value = 0;
+            tb_nome.Focus();
+        }
+
+        private void btn_novo_Click(object sender, EventArgs e)
+        {
+            tb_nome.Clear();
+            tb_username.Clear();
+            tb_senha.Clear();
+            cb_status.Text = "";
+            nd_nivel.Value = 0;
+            tb_nome.Focus();
         }
     }
 }
