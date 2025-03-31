@@ -82,8 +82,7 @@
               "ToolTip": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\Form1.cs [Projeto]",
               "RelativeToolTip": "Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T00:26:18.032Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-03-30T00:26:18.032Z"
             },
             {
               "$type": "Document",
@@ -94,20 +93,19 @@
               "ToolTip": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\F_Login.cs [Projeto]",
               "RelativeToolTip": "F_Login.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T02:08:46.535Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-03-30T02:08:46.535Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "F_NovoUsuario.cs [Projeto]",
+              "Title": "F_NovoUsuario.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\F_NovoUsuario.cs",
               "RelativeDocumentMoniker": "F_NovoUsuario.cs",
-              "ToolTip": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\F_NovoUsuario.cs [Projeto]",
-              "RelativeToolTip": "F_NovoUsuario.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Rodrigo\\Desktop\\Projeto\\Academia01\\F_NovoUsuario.cs [Design]",
+              "RelativeToolTip": "F_NovoUsuario.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T14:38:07.694Z",
-              "EditorCaption": " [Projeto]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -119,8 +117,7 @@
               "RelativeToolTip": "Banco.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAmwFsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T01:20:13.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T01:20:13.759Z"
             },
             {
               "$type": "Document",
@@ -145,8 +142,7 @@
               "RelativeToolTip": "Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T02:52:37.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T02:52:37.519Z"
             },
             {
               "$type": "Document",
